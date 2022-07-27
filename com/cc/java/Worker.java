@@ -6,5 +6,11 @@ public class Worker extends HoneyBee{
         return "I'm a worker bee, I work all day!";
      }
 
+    @Override
+    public String fly() {
+        // TODO Auto-generated method stub
+        return "I believe, I can fly at 12mph!";
+    }
+
 
 }
